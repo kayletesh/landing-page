@@ -27,14 +27,14 @@ body {
 }
 
 .wrapper {
-  max-width: 1120px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 48px;
 }
 .logo {
   background-color: rgb(134, 40, 2);
   border: 2.5px solid rgb(201, 70, 18);
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 100%;
   width: 48px;
   height: 48px;
@@ -89,7 +89,44 @@ button {
   background-color: #3882f6;
   padding: 6px 12px;
   border-radius: 7px;
-  border: 2px solid #f9faf8;
+  border: 0.5px solid #f9faf8;
   margin-top: 16px;
   color: #f9faf8;
+}
+
+/* end hero, start main */
+
+.main {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 111px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  border: 3px solid #3882f6;
+}
+
+.card {
+  width: 200px;
+}
+
+.card-info {
+  padding-top: 6px;
+  color: #1f2937;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 34px auto;
 }
